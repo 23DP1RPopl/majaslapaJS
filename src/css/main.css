@@ -14,8 +14,8 @@ html {
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(34, 40, 49);
-    color: rgb(238, 238, 238);
+    background-color: rgb(229, 217, 242);
+    color: rgb(165, 148, 249);
     font-family: "Georgia", serif;
 }
 .description p {
@@ -34,7 +34,7 @@ body{
 }
 .description {
     padding: 40px 60px;
-    background-color:rgb(57, 62, 70) ;
+    background-color:rgb(245, 239, 255);
 }
 h1, h2, h3 {
     font-family: "Roboto", sans-serif;
@@ -43,7 +43,7 @@ h1, h2, h3 {
     font-size: 40px;
 }
 nav {
-    background-color: rgb(255, 211, 105);
+    background-color: rgb(205, 193, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,8 +52,8 @@ nav {
 }
 .buttons a {
     text-decoration: none;
-    color: black;
-    background-color: azure;
+    color: rgb(165, 148, 249);
+    background-color: rgb(245, 239, 255);
     width: 200px;
     margin-right: 1rem;
     font-size: 20px;
@@ -78,23 +78,26 @@ header {
 #hero {
     padding-top: 4rem;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     align-items: center;
+    
 }
+
 .citata{
-    padding: 20px 1px 1px 1px;
+    padding: 20px 5rem 1px 1px;
 
 }
 .quote {
     display: flex;
-    background-color: rgb(57, 62, 70);
+    background-color: rgb(245, 239, 255);
     align-items: center;
-    font-size: 28px;
+    font-size: 40px;
     font-style: italic;
-    color: rgb(238, 238, 238);;
+    color: rgb(165, 148, 249);
     position: relative;
     padding: 40px 60px;
-    max-width: 600px;
+    max-width: 800px;
+    height: 400px;
     margin: 40px auto;
     border-radius:5px ;
 }
@@ -118,17 +121,17 @@ header {
     font-family: serif;
 }
 
-.quote footer {
-    margin-top: 20px;
-    font-size: 20px;
+.quote cite {
+    margin-top: 8rem;
+    font-size: 30px;
     font-weight: bold;
     text-align: right;
-    color: rgb(238, 238, 238);;
 }
 #player {
     padding: 1px 1px 1px 20px;;
 }
 .cat-fact {
+    background-color: rgb(245, 239, 255);
     padding: 40px 60px;
 }
 #piano {
@@ -144,7 +147,7 @@ header {
 .white {
     width: 120px;
     height: 400px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 1px solid #ccc;
     z-index: 1;
 }
@@ -165,7 +168,7 @@ header {
     background-color: #333;
   }
 footer {
-    background-color:rgb(57, 62, 70) ;
+    background-color:rgb(205, 193, 255);
     bottom: 0;
 }
 footer p {
