@@ -14,8 +14,8 @@ html {
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(229, 217, 242);
-    color: rgb(165, 148, 249);
+    background-color: rgb(24, 28, 20);
+    color: rgb(236, 223, 204);
     font-family: "Georgia", serif;
 }
 .description p {
@@ -34,7 +34,7 @@ body{
 }
 .description {
     padding: 40px 60px;
-    background-color:rgb(245, 239, 255);
+    background-color:rgb(105, 117, 101);
 }
 h1, h2, h3 {
     font-family: "Roboto", sans-serif;
@@ -43,7 +43,7 @@ h1, h2, h3 {
     font-size: 40px;
 }
 nav {
-    background-color: rgb(205, 193, 255);
+    background-color: rgb(60, 61, 55);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,8 +52,8 @@ nav {
 }
 .buttons a {
     text-decoration: none;
-    color: rgb(165, 148, 249);
-    background-color: rgb(245, 239, 255);
+    color: rgb(236, 223, 204);
+    background-color: rgb(105, 117, 101);
     width: 200px;
     margin-right: 1rem;
     font-size: 20px;
@@ -89,11 +89,11 @@ header {
 }
 .quote {
     display: flex;
-    background-color: rgb(245, 239, 255);
+    background-color: rgb(24, 28, 20);
     align-items: center;
     font-size: 40px;
     font-style: italic;
-    color: rgb(165, 148, 249);
+    color: rgb(236, 223, 204);
     position: relative;
     padding: 40px 60px;
     max-width: 800px;
@@ -131,7 +131,7 @@ header {
     padding: 1px 1px 1px 20px;;
 }
 .cat-fact {
-    background-color: rgb(245, 239, 255);
+    background-color: rgb(105, 117, 101);
     padding: 40px 60px;
 }
 #piano {
@@ -168,7 +168,7 @@ header {
     background-color: #333;
   }
 footer {
-    background-color:rgb(205, 193, 255);
+    background-color:rgb(60, 61, 55);
     bottom: 0;
 }
 footer p {
